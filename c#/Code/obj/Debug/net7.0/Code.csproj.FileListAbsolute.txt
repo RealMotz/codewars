@@ -1,0 +1,15 @@
+/Users/motta/Desktop/Projects/Codewars/Code/bin/Debug/net7.0/Code
+/Users/motta/Desktop/Projects/Codewars/Code/bin/Debug/net7.0/Code.deps.json
+/Users/motta/Desktop/Projects/Codewars/Code/bin/Debug/net7.0/Code.runtimeconfig.json
+/Users/motta/Desktop/Projects/Codewars/Code/bin/Debug/net7.0/Code.dll
+/Users/motta/Desktop/Projects/Codewars/Code/bin/Debug/net7.0/Code.pdb
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.csproj.AssemblyReference.cache
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.AssemblyInfoInputs.cache
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.AssemblyInfo.cs
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.csproj.CoreCompileInputs.cache
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.dll
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/refint/Code.dll
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.pdb
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/Code.genruntimeconfig.cache
+/Users/motta/Desktop/Projects/Codewars/Code/obj/Debug/net7.0/ref/Code.dll
