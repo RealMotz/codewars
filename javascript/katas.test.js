@@ -54,3 +54,13 @@ test("Kata 6: Ex6 - should return all elements in a not in b", () => {
     expect(katas6.arrayDiff([], [1,2])).toEqual([]);
     expect(katas6.arrayDiff([1,2,3], [1,2])).toEqual([3]);
 })
+
+test("Kata 6: Ex7 - should return a list of all digits that can be raised to the consecutive powers (1,2,3,...)", () => {
+    expect(katas6.sumDigPow(1, 10)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+    expect(katas6.sumDigPow(1, 100)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 89]);
+    expect(katas6.sumDigPow(10, 100)).toEqual([89]);
+    expect(katas6.sumDigPow(90, 100)).toEqual([]);
+    expect(katas6.sumDigPow(90, 150)).toEqual([135]);
+    expect(katas6.sumDigPow(50, 150)).toEqual([89, 135]);
+    expect(katas6.sumDigPow(10, 150)).toEqual([89, 135]);
+})

@@ -79,6 +79,35 @@ class Kata6 {
             return accumulator;
         }, [])
     }
+
+    sumDigPow(a, b) {
+        /*
+        function filterFunc(n) {
+        return `${n}`.split("").map((x, i) => x ** (i+1)).reduce((a, b) => a+b) == n;
+        }
+
+        function *range(a, b) {
+        for (var i = a; i <= b; ++i) yield i;
+        }
+
+        function sumDigPow(a, b) {
+        return Array.from(range(a, b)).filter(filterFunc);
+        }
+        */
+        let numbers = [];
+
+        for (let currentNumber = a; currentNumber <= b; currentNumber++) {
+            var number = currentNumber.toString().split('').reduce((accumulator, current, i) => {
+                return accumulator + Number(current**(i + 1));
+            }, 0);
+
+            if(number != currentNumber) continue;
+
+            numbers.push(number);
+        }
+
+        return numbers;
+    }
 }
 
 class Kata5 {
@@ -114,6 +143,9 @@ class Kata5 {
         return '';
     }
 }
+
+var kata = new Kata6();
+kata.sumDigPow(10, 11);
 
 exports.kata6 = Kata6;
 exports.kata5 = Kata5;
