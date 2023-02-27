@@ -108,6 +108,62 @@ class Kata6 {
 
         return numbers;
     }
+
+    encrypt(text, n) {
+        // for (let i = 0; i < n; i++) {
+        //     text = text && text.replace(/.(.|$)/g, '$1') + text.replace(/(.)./g, '$1')
+        // }
+        var encryptedText = text;
+
+        for(let i = 0; i < n; i++) {
+            var odd = [];
+            var even = [];
+            for(let j = 0; j < encryptedText.length; j++) {
+                if(j%2 == 0) {
+                    even.push(encryptedText[j]);
+                    continue;
+                }
+                odd.push(encryptedText[j]);
+            }
+            encryptedText = odd.join('') + even.join('');
+        }
+
+        return encryptedText;
+    }
+
+    decrypt(encryptedText, n) {
+        // let l = text && text.length / 2 | 0
+        //     for (let i = 0; i < n; i++) {
+        //     text = text.slice(l).replace(/./g, (_, i) => _ + (i < l ? text[i] : ''))
+        // }
+        if(!encryptedText) return encryptedText;
+
+        var decodedText = encryptedText;
+        var textLength = encryptedText.length;
+        var decoded = []
+
+        for(let i = 0; i < n; i++) {
+            let odd = decodedText.substring(0, Math.floor(textLength/2));
+            let even = decodedText.substring(Math.floor(textLength/2));
+            let oddIndex = 0;
+            let evenIndex = 0;
+
+            for(let j = 0; j < textLength; j++) {
+                if(j%2 == 0) {
+                    decoded.push(even[evenIndex]);
+                    evenIndex++;
+                    continue;
+                }
+                decoded.push(odd[oddIndex]);
+                oddIndex++;
+            }
+
+            decodedText = decoded.join('');
+            decoded = [];
+        }
+
+        return decodedText;
+    }
 }
 
 class Kata5 {
@@ -143,9 +199,6 @@ class Kata5 {
         return '';
     }
 }
-
-var kata = new Kata6();
-kata.sumDigPow(10, 11);
 
 exports.kata6 = Kata6;
 exports.kata5 = Kata5;

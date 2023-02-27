@@ -64,3 +64,30 @@ test("Kata 6: Ex7 - should return a list of all digits that can be raised to the
     expect(katas6.sumDigPow(50, 150)).toEqual([89, 135]);
     expect(katas6.sumDigPow(10, 150)).toEqual([89, 135]);
 })
+
+test("Kata 6: Ex10 - should concatenate all odd items with all even items N times", () => {
+    expect(katas6.encrypt("This is a test!", 0)).toBe("This is a test!");
+    expect(katas6.encrypt("This is a test!", 1)).toBe("hsi  etTi sats!");
+    expect(katas6.encrypt("This is a test!", 2)).toBe("s eT ashi tist!");
+    expect(katas6.encrypt("This is a test!", 3)).toBe(" Tah itse sits!");
+    expect(katas6.encrypt("This is a test!", 4)).toBe("This is a test!");
+    expect(katas6.encrypt("This is a test!", -1)).toBe("This is a test!");
+    expect(katas6.encrypt("This kata is very interesting!", 1)).toEqual("hskt svr neetn!Ti aai eyitrsig");
+})
+
+test("Kata 6: Ex10 - should decrypt the encrypted values by Kata6.encrypt", () => {
+    expect(katas6.decrypt("This is a test!", 0)).toBe("This is a test!");
+    expect(katas6.decrypt("hsi  etTi sats!", 1)).toBe("This is a test!");
+    expect(katas6.decrypt("s eT ashi tist!", 2)).toBe("This is a test!");
+    expect(katas6.decrypt(" Tah itse sits!", 3)).toBe("This is a test!");
+    expect(katas6.decrypt("This is a test!", 4)).toBe("This is a test!");
+    expect(katas6.decrypt("This is a test!", -1)).toBe("This is a test!");
+    expect(katas6.decrypt("hskt svr neetn!Ti aai eyitrsig", 1)).toBe("This kata is very interesting!");
+})
+
+test("Kata 6: Ex10 - should return null, empty string or same string", () => {
+    expect(katas6.encrypt("", 0)).toBe("");
+    expect(katas6.decrypt("", 0)).toBe("");
+    expect(katas6.encrypt(null, 0)).toBe(null);
+    expect(katas6.decrypt(null, 0)).toBe(null);
+})
