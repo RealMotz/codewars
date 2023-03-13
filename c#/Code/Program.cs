@@ -1,6 +1,18 @@
-﻿using Code.Classes;
+﻿using System;
+using System.Text;
+using System.Text.RegularExpressions;
+using Code.Classes;
 
-var r = Math.Sqrt(28);
-var r2 = Math.Sqrt(28) % 1;
-Console.WriteLine(r);
-Console.WriteLine(r2);
+internal class Program
+{
+    private static void Main(string[] args) {
+        Ryu5 ryu5 = new Ryu5();
+        ryu5.listSquared(1, 250);
+
+        // long[] r = ryu5.Divisors(42);
+
+        // foreach (int i in r) {
+        //     Console.Write($"{i}, ");
+        // }
+    }
+}

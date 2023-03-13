@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s35rftG3oGdvp/LFe41mR0b4+0FjizpkmVMN01OymQ63mFvGastVvq2wwOTwsyxTbPcktaYoHwuKFnfzxXPb4w==",
+  "dgSpecHash": "kWJRABbhJs/ecZtU0+k4fqtxc3NLmT25HUHILfohcajvGcTedZKDnt4Jew5nrw0c1/RZbCrWT84Nhgrs1mxUzw==",
   "success": true,
-  "projectFilePath": "/Users/motta/Desktop/Projects/Codewars/Code.Tests/Code.Tests.csproj",
+  "projectFilePath": "/Users/motta/Documents/Projects/codewars/c#/Code.Tests/Code.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/motta/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/motta/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",

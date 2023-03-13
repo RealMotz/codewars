@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AXrRftjQqxoWXLyXaUxulo7IeP3c7xFo4t6emX+XCpPdlsTTxftN20Js2F5CZ7Lbxnb1DweDZU7ivnXJ8HBNjw==",
+  "dgSpecHash": "XA1/JaE5nYVPM/f6Dpfr+YztejKAllfq3+5S9AJ8NDPmenv58I6sTyXm9HKcM4K/VdMxOh3qAgsmqcR6/3q9Xg==",
   "success": true,
-  "projectFilePath": "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj",
+  "projectFilePath": "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

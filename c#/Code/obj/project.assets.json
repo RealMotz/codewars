@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj",
+      "projectUniqueName": "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj",
       "projectName": "Code",
-      "projectPath": "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj",
+      "projectPath": "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj",
       "packagesPath": "/Users/motta/.nuget/packages/",
-      "outputPath": "/Users/motta/Desktop/Projects/Codewars/Code/obj/",
+      "outputPath": "/Users/motta/Documents/Projects/codewars/c#/Code/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/motta/.nuget/NuGet/NuGet.Config"

@@ -10,7 +10,7 @@ public class ChallengeTests
     }
 
     [Test]
-    [Ignore("Ignore a fixture")]
+    //[Ignore("Ignore a fixture")]
     [TestCase(new string[] { }, "no one likes this")]
     [TestCase(new string[] { "Peter" }, "Peter likes this")]
     [TestCase(new string[] { "Jacob", "Alex" }, "Jacob and Alex like this")]
@@ -19,16 +19,17 @@ public class ChallengeTests
     public void LikesTests_GivenArrayOfName_ReturnsString(string[] names, string expectedResult)
     {
         // Arrange
+        Challenge challenge = new Challenge();
 
         // Act
-        var result = Challenge.Likes(names);
+        var result = challenge.Likes(names);
 
         // Assert
         Assert.That(result, Is.EqualTo(expectedResult));
     }
 
     [Test]
-    [Ignore("Ignore a fixture")]
+    //[Ignore("Ignore a fixture")]
     [TestCase("Ths wbst s fr lsrs LL!", "This website is for losers LOL!")]
     [TestCase("N ffns bt,\nYr wrtng s mng th wrst 'v vr rd", "No offense but,\nYour writing is among the worst I've ever read")]
     [TestCase("Wht r y,  cmmnst?", "What are you, a communist?")]
@@ -36,36 +37,43 @@ public class ChallengeTests
     public void Disemvowel_ReceivesStringWithSentence_ReturnsString(string expectedResult, string str)
     {
         // Arrange
+        Challenge challenge = new Challenge();
 
         // Act
-        var result = Challenge.Disemvowel(str);
+        var result = challenge.Disemvowel(str);
 
         // Assert
         Assert.That(result, Is.EqualTo(expectedResult));
     }
 
     [Test]
-    [Ignore("Ignore a fixture")]
+    //[Ignore("Ignore a fixture")]
     [TestCase(".... . -.--   .--- ..- -.. .", "HEY JUDE")]
     [TestCase(" .... . -.--   .--- ..- -.. . ", "HEY JUDE")]
     public void Decode(string morseCode, string expectedResult)
     {
         // Arrange
+        Ryu6 ryu6 = new Ryu6();
 
         // Act
-        var actual = Challenge.Decode(morseCode);
+        var actual = ryu6.Decode(morseCode);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expectedResult));
     }
 
     [Test]
+    //[Ignore("Ignore a fixture")]
     public void IsSquare()
     {
-        Assert.AreEqual(false, Challenge.IsSquare(-1), "negative numbers aren't square numbers");
-        Assert.AreEqual(false, Challenge.IsSquare(3), "3 isn't a square number");
-        Assert.AreEqual(true, Challenge.IsSquare(4), "4 is a square number");
-        Assert.AreEqual(true, Challenge.IsSquare(25), "25 is a square number");
-        Assert.AreEqual(false, Challenge.IsSquare(26), "26 isn't a square number");
+        // Arrange
+        Ryu7 ryu7 = new Ryu7();
+
+        // Assert
+        Assert.AreEqual(false, ryu7.IsSquare(-1), "negative numbers aren't square numbers");
+        Assert.AreEqual(false, ryu7.IsSquare(3), "3 isn't a square number");
+        Assert.AreEqual(true, ryu7.IsSquare(4), "4 is a square number");
+        Assert.AreEqual(true, ryu7.IsSquare(25), "25 is a square number");
+        Assert.AreEqual(false, ryu7.IsSquare(26), "26 isn't a square number");
     }
 }

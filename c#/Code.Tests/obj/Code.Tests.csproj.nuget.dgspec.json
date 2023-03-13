@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/motta/Desktop/Projects/Codewars/Code.Tests/Code.Tests.csproj": {}
+    "/Users/motta/Documents/Projects/codewars/c#/Code.Tests/Code.Tests.csproj": {}
   },
   "projects": {
-    "/Users/motta/Desktop/Projects/Codewars/Code.Tests/Code.Tests.csproj": {
+    "/Users/motta/Documents/Projects/codewars/c#/Code.Tests/Code.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/motta/Desktop/Projects/Codewars/Code.Tests/Code.Tests.csproj",
+        "projectUniqueName": "/Users/motta/Documents/Projects/codewars/c#/Code.Tests/Code.Tests.csproj",
         "projectName": "Code.Tests",
-        "projectPath": "/Users/motta/Desktop/Projects/Codewars/Code.Tests/Code.Tests.csproj",
+        "projectPath": "/Users/motta/Documents/Projects/codewars/c#/Code.Tests/Code.Tests.csproj",
         "packagesPath": "/Users/motta/.nuget/packages/",
-        "outputPath": "/Users/motta/Desktop/Projects/Codewars/Code.Tests/obj/",
+        "outputPath": "/Users/motta/Documents/Projects/codewars/c#/Code.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/motta/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj": {
-                "projectPath": "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj"
+              "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj": {
+                "projectPath": "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj": {
+    "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj",
+        "projectUniqueName": "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj",
         "projectName": "Code",
-        "projectPath": "/Users/motta/Desktop/Projects/Codewars/Code/Code.csproj",
+        "projectPath": "/Users/motta/Documents/Projects/codewars/c#/Code/Code.csproj",
         "packagesPath": "/Users/motta/.nuget/packages/",
-        "outputPath": "/Users/motta/Desktop/Projects/Codewars/Code/obj/",
+        "outputPath": "/Users/motta/Documents/Projects/codewars/c#/Code/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/motta/.nuget/NuGet/NuGet.Config"
